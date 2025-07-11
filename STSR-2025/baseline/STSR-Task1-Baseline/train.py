@@ -69,56 +69,56 @@ def train_epoch(model, loader, optimizer, loss_fn, device, epoch, config, tb_wri
 
     return avg_epoch_loss
 
-def validate_epoch(model, loader, loss_fn, metric_fn, post_transforms, device, epoch, config, tb_writer=None):
+def validate_epoch(model, loader, loss_fn, metric_fn, post_pred, post_label, device, epoch, config, tb_writer=None):
     """验证一个 Epoch"""
     model.eval()
     val_loss = 0.0
-    metric_fn.reset()
-    
+    metric_fn.reset() # 重置指标计算器
+
     progress_bar = tqdm(enumerate(loader), total=len(loader), desc=f"Epoch {epoch+1} [Validate]")
-    
+
     with torch.no_grad():
         for batch_idx, batch_data in progress_bar:
             val_images, val_labels = batch_data["image"].to(device), batch_data["label"].to(device)
-            
-            # 推理
+
+            # 使用滑动窗口推理处理可能的大图像或不同大小的图像
             roi_size = config['transforms']['spatial_crop_size']
-            sw_batch_size = config['training'].get('validation_sw_batch_size', 4)
+            sw_batch_size = config['training'].get('validation_sw_batch_size', 4) # 滑动窗口内部的 batch size
             val_outputs = sliding_window_inference(
-                val_images, roi_size, sw_batch_size, model, overlap=0.5, mode='gaussian'
+                val_images, roi_size, sw_batch_size, model, overlap=0.5, mode='gaussian' # 使用高斯平滑重叠区域
             )
-            
-            # 计算损失
+
+            # 计算验证 Loss (可选，但有助于监控)
             loss = loss_fn(val_outputs, val_labels)
             val_loss += loss.item()
-            
-            # 解包 batch -> 单个样本列表
+
+            # 解包 batch -> 单个样本
             val_output_list = decollate_batch(val_outputs)
             val_label_list = decollate_batch(val_labels)
-            
-            # ==========================================================
-            # === 关键修复：构建正确的数据字典 ===
-            # ==========================================================
-            # 1. 构建符合变换要求的数据字典
-            data_dicts = [{"image": img, "pred": pred, "label": label} 
-                         for img, pred, label in zip(val_images, val_output_list, val_label_list)]
-            
-            # 2. 应用后处理变换（自动处理 pred 和 label 字段）
-            post_data_dicts = [post_transforms(d) for d in data_dicts]
-            
-            # 3. 提取处理后的结果
-            val_outputs_post = [d["pred"] for d in post_data_dicts]
-            val_labels_post = [d["label"] for d in post_data_dicts]
-            
-            # 4. 计算指标
-            metric_fn(y_pred=val_outputs_post, y=val_labels_post)
-            
+
+            # 包装成字典 {'pred': ..., 'label': ...} 再送入 transforms
+            data_dicts = [{"pred": o, "label": l} for o, l in zip(val_output_list, val_label_list)]
+
+            # 后处理（包括 argmax 和 one-hot）
+            val_outputs_post = [post_pred(d) for d in data_dicts]
+            val_labels_post = [post_label(d) for d in data_dicts]
+
+             # --- 取出 tensor 列表 ---
+            val_outputs_tensor_list = [d["pred"] for d in val_outputs_post]
+            val_labels_tensor_list = [d["label"] for d in val_labels_post]
+
+            # --- 计算指标 ---
+            metric_fn(y_pred=val_outputs_tensor_list, y=val_labels_tensor_list)
+
+
             progress_bar.set_postfix({"val_loss": f"{val_loss / (batch_idx + 1):.4f}"})
-            
-    # ... (后续代码基本不变) ...
+
+
+    # 聚合指标
     metric_result_tensor = metric_fn.aggregate()
     metric_result = metric_result_tensor.mean().item()
-    metric_fn.reset()
+
+    metric_fn.reset() # 为下一轮验证重置
 
     avg_val_loss = val_loss / len(loader)
 
@@ -128,26 +128,29 @@ def validate_epoch(model, loader, loss_fn, metric_fn, post_transforms, device, e
     if tb_writer:
         tb_writer.add_scalar("Loss/validation", avg_val_loss, epoch)
         tb_writer.add_scalar("Dice/validation", metric_result, epoch)
-        # 可视化代码也需要相应调整
-        if epoch % config['training'].get('vis_interval', 10) == 0:
+        # 可视化一些样本 (可选)
+        if epoch % config['training'].get('vis_interval', 10) == 0: # 每 10 个 epoch 可视化一次
             try:
-                # 使用已经过 one-hot 编码的第一个验证样本
-                first_val_output = val_outputs_post[0] # <--- 直接使用 one-hot 结果
-                first_val_label = val_labels_post[0]   # <--- 直接使用 one-hot 结果
-                first_val_image = val_images[0]
+                # 取第一个验证样本进行可视化
+                first_val_output = val_outputs_post[0]['pred'] # 获取 one-hot 预测
+                first_val_label = val_labels_post[0]['label'] # 获取 one-hot 标签
+                first_val_image = val_images[0] # 获取原始图像
 
+                # 选择中间切片进行可视化 (z 轴)
                 mid_slice = first_val_image.shape[-1] // 2
 
+                # 叠加预测和标签到图像上 (需要转换为 RGB)
+                # 注意：这里的可视化比较基础，可以用 matplotlib 或其他库做得更精细
                 img_slice = first_val_image[0, :, :, mid_slice].cpu().numpy()
-                pred_slice = torch.argmax(first_val_output, dim=0)[:, :, mid_slice].cpu().numpy()
-                label_slice = torch.argmax(first_val_label, dim=0)[:, :, mid_slice].cpu().numpy()
+                pred_slice = torch.argmax(first_val_output, dim=0)[ :, :, mid_slice].cpu().numpy() # 转为类别索引
+                label_slice = torch.argmax(first_val_label, dim=0)[ :, :, mid_slice].cpu().numpy() # 转为类别索引
 
-                vis_image = np.stack([img_slice] * 3, axis=0)
-                # ... (可视化着色逻辑不变) ...
-                # 示例：类别1为红色，类别2为绿色
-                vis_image[0, pred_slice == 1] = 1.0 
-                vis_image[1, pred_slice == 2] = 1.0
-                vis_image[2, label_slice != 0] = 0.5 
+                # 创建一个简单的 RGB 图像用于 TensorBoard
+                vis_image = np.stack([img_slice] * 3, axis=0) # 灰度图转 RGB
+                # 在预测和标签位置上色 (简单示例：牙齿-红色, 根管-绿色)
+                vis_image[0, pred_slice == 1] = 1.0 # Red channel for teeth pred
+                vis_image[1, pred_slice == 2] = 1.0 # Green channel for root canal pred
+                vis_image[2, label_slice != 0] = 0.5 # Blue channel for ground truth (semi-transparent)
 
                 tb_writer.add_image(f"Validation/sample_{batch_idx}_slice_{mid_slice}",
                                     torch.tensor(vis_image), global_step=epoch, dataformats='CHW')
@@ -220,7 +223,7 @@ def main(config_path: str):
             init_filters=config['model'].get('init_filters', 16),
             blocks_down=config['model'].get('blocks_down', [1, 2, 2, 4]),
             blocks_up=config['model'].get('blocks_up', [1, 1, 1]),
-            dropout_prob=config['model'].get('dropout_prob', 0.2),
+            dropout_prob=config['model'].get('dropout_prob', 0.2)
         ).to(device)
     else:
         raise ValueError(f"Unsupported model name: {config['model']['name']}")
@@ -279,7 +282,10 @@ def main(config_path: str):
         raise ValueError(f"Unsupported metric: {metric_name}")
 
     # 获取后处理 transforms (用于将模型输出转为 one-hot 格式给 metric)
-    post_transforms = get_post_transforms(config)
+    post_pred = get_post_transforms(config) # Post transforms for predictions
+    post_label = get_post_transforms(config) # Post transforms for labels
+
+    
 
     # --- 7. 训练循环 ---
     num_epochs = config['training']['num_epochs']
@@ -311,7 +317,7 @@ def main(config_path: str):
 
         # --- Validate ---
         if (epoch + 1) % val_interval == 0 or epoch == num_epochs - 1:
-            val_loss, current_metric_val = validate_epoch(model, val_loader, loss_function, dice_metric, post_transforms, device, epoch, config, tb_writer)
+            val_loss, current_metric_val = validate_epoch(model, val_loader, loss_function, dice_metric, post_pred, post_label, device, epoch, config, tb_writer)
 
             # --- LR Scheduler Step (Validation-based like ReduceLROnPlateau) ---
             if scheduler and isinstance(scheduler, torch.optim.lr_scheduler.ReduceLROnPlateau):

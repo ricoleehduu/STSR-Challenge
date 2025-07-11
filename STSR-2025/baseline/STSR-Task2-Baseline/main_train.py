@@ -1,0 +1,118 @@
+# main_train.py (final version)
+
+import torch
+from torch.utils.data import DataLoader
+from torch.utils.tensorboard import SummaryWriter
+from pathlib import Path
+import yaml
+import time
+import os
+
+from data.dataset import DentalDataset
+from models.main_model import RegistrationModel
+from losses.registration_loss import registration_loss, transform_points
+
+def main():
+    # --- 1. Load configuration ---
+    config_path = 'configs/train_config.yaml'
+    with open(config_path, encoding='utf-8') as f:
+        config = yaml.safe_load(f)
+
+    # --- 2. Prepare experiment environment ---
+    exp_dir = Path(config['output_dir']) / config['experiment_name']
+    checkpoint_dir = exp_dir / "checkpoints"
+    log_dir = exp_dir / "logs"
+    checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    log_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Initialize TensorBoard and log file
+    writer = SummaryWriter(log_dir)
+    log_file = open(exp_dir / "log.txt", "a")
+
+    def print_and_log(message):
+        print(message)
+        log_file.write(message + '\n')
+    
+    print_and_log(f"--- Experiment started: {config['experiment_name']} ---")
+    print_and_log(f"Configuration:\n{yaml.dump(config)}")
+
+    # --- 3. Device and model ---
+    device = torch.device(config['device'] if torch.cuda.is_available() else 'cpu')
+    print_and_log(f"Using device: {device}")
+    
+    model = RegistrationModel(feat_dim=config['feature_dim']).to(device)
+    optimizer = torch.optim.Adam(model.parameters(), lr=config['learning_rate'])
+    
+    # --- 4. Data loading ---
+    train_dataset = DentalDataset(config['train_data_root'], config['jaw_type'], 
+                                  num_points_stl=config['num_points_stl'],
+                                  num_points_cbct=config['num_points_cbct'],
+                                  use_augmentation=True)
+    train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True, num_workers=config['num_workers'])
+    
+    val_dataset = DentalDataset(config['val_data_root'], config['jaw_type'],
+                                num_points_stl=config['num_points_stl'],
+                                num_points_cbct=config['num_points_cbct'],
+                                use_augmentation=False)  # No augmentation for validation set
+    val_loader = DataLoader(val_dataset, batch_size=config['batch_size'], shuffle=False, num_workers=config['num_workers'])
+
+    # --- 5. Training and validation loop ---
+    best_val_loss = float('inf')
+    start_time = time.time()
+
+    for epoch in range(config['epochs']):
+        # -- Training --
+        model.train()
+        total_train_loss = 0
+        for i, data in enumerate(train_loader):
+            p_src = data['p_src'].to(device)
+            p_tgt = data['p_tgt'].to(device)
+            transform_gt = data['transform_gt'].to(device)
+
+            optimizer.zero_grad()
+            transform_pred = model(p_src, p_tgt)
+            loss = registration_loss(p_src, transform_pred, transform_gt)
+            loss.backward()
+            optimizer.step()
+            
+            total_train_loss += loss.item()
+        
+        avg_train_loss = total_train_loss / len(train_loader)
+        writer.add_scalar('Loss/train', avg_train_loss, epoch)
+
+        # -- Validation --
+        model.eval()
+        total_val_loss = 0
+        with torch.no_grad():
+            for data in val_loader:
+                p_src = data['p_src'].to(device)
+                p_tgt = data['p_tgt'].to(device)
+                transform_gt = data['transform_gt'].to(device)
+                
+                transform_pred = model(p_src, p_tgt)
+                loss = registration_loss(p_src, transform_pred, transform_gt)
+                total_val_loss += loss.item()
+        
+        avg_val_loss = total_val_loss / len(val_loader)
+        writer.add_scalar('Loss/validation', avg_val_loss, epoch)
+
+        # -- Print and save --
+        epoch_time = time.time() - start_time
+        print_and_log(f"Epoch {epoch+1}/{config['epochs']} | Train Loss: {avg_train_loss:.6f} | Val Loss: {avg_val_loss:.6f} | Time: {epoch_time:.2f}s")
+
+        # Save latest weights
+        torch.save(model.state_dict(), checkpoint_dir / "latest_model.pth")
+        
+        # Save best weights
+        if avg_val_loss < best_val_loss:
+            best_val_loss = avg_val_loss
+            torch.save(model.state_dict(), checkpoint_dir / "best_model.pth")
+            print_and_log(f"  -> New best model saved with validation loss: {best_val_loss:.6f}")
+    
+    writer.close()
+    log_file.close()
+    print_and_log("--- Training completed ---")
+
+
+if __name__ == '__main__':
+    main()

@@ -9,6 +9,7 @@ import numpy as np
 from datetime import datetime
 
 def setup_logger(log_dir: str, log_name: str = "train.log"):
+    """设置日志记录"""
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
@@ -27,6 +28,7 @@ def setup_logger(log_dir: str, log_name: str = "train.log"):
     logging.info(f"Logging setup complete. Log file: {os.path.join(log_dir, log_name)}")
 
 def set_seed(seed: int):
+    """设置随机种子以保证可复现性"""
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
@@ -38,6 +40,7 @@ def set_seed(seed: int):
         torch.backends.cudnn.benchmark = False # 设置为 False 以保证完全确定性
 
 def save_checkpoint(state: Dict, is_best: bool, checkpoint_dir: str, filename: str = "checkpoint_seg.pth.tar", best_filename: str = "model_best_seg.pth.tar"):
+    """保存模型检查点"""
     if not os.path.exists(checkpoint_dir):
         os.makedirs(checkpoint_dir)
     filepath = os.path.join(checkpoint_dir, filename)
@@ -49,6 +52,7 @@ def save_checkpoint(state: Dict, is_best: bool, checkpoint_dir: str, filename: s
         logging.info(f"Best model saved to {best_filepath}")
 
 def load_checkpoint(checkpoint_path: str, model: torch.nn.Module, optimizer: torch.optim.Optimizer = None):
+    """加载模型检查点"""
     if not os.path.exists(checkpoint_path):
         raise FileNotFoundError(f"Checkpoint file not found at {checkpoint_path}")
 

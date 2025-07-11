@@ -1,0 +1,12 @@
+numpy
+torch
+torchvision
+torchaudio
+nibabel
+trimesh
+open3d
+PyYAML
+tqdm
+scipy
+tensorboard
+pytorch_geometric

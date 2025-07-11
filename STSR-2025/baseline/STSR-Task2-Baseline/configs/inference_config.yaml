@@ -1,0 +1,22 @@
+# configs/inference_config.yaml
+
+# --- Path Configuration ---
+# Root directory of the inference dataset (e.g., Validation-Public/Images)
+inference_data_root: "D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public/Images"
+# Root directory for experiment outputs (contains trained weights)
+output_dir: "./experiments"
+# Path to save the final submission ZIP file
+submission_zip_path: "./prediction.zip"
+
+# --- Experiment Configuration ---
+# !! Important: Specify experiment names for upper and lower jaw models !!
+upper_jaw_experiment_name: "upper_jaw_registration_v1"  # Assuming you trained an upper jaw model with this name
+lower_jaw_experiment_name: "lower_jaw_registration_v1"
+
+# --- Device Configuration ---
+device: "cuda"
+
+# --- Data and Model Configuration (must match training settings) ---
+num_points_stl: 4096
+num_points_cbct: 8192
+feature_dim: 128

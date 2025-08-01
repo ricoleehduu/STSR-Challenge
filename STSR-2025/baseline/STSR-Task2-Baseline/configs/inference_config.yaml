@@ -2,7 +2,7 @@
 
 # --- Path Configuration ---
 # Root directory of the inference dataset (e.g., Validation-Public/Images)
-inference_data_root: "D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public/Images"
+inference_data_root: "./data/Task2/Validation/Images"
 # Root directory for experiment outputs (contains trained weights)
 output_dir: "./experiments"
 # Path to save the final submission ZIP file

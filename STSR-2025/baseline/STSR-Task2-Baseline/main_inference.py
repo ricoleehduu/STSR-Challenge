@@ -1,5 +1,5 @@
-# main_inference_batch.py
-
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import torch
 import numpy as np
 import trimesh
@@ -17,7 +17,7 @@ def load_model_for_inference(config, jaw_type):
     model = RegistrationModel(feat_dim=config['feature_dim']).to(device)
 
     exp_name = config[f'{jaw_type}_jaw_experiment_name']
-    checkpoint_path = Path(config['output_dir']) / exp_name / "checkpoints" / "best_model.pth"
+    checkpoint_path = Path(config['output_dir']) / exp_name / "checkpoints" / "latest_model.pth"
     
     if not checkpoint_path.exists():
         raise FileNotFoundError(f"Model weights not found for {jaw_type} jaw: {checkpoint_path}")
@@ -76,6 +76,7 @@ def predict_single_case(model, device, config, stl_path, cbct_path):
     return T_final_corrected
 
 def main():
+
     # --- 1. Load configuration ---
     config_path = 'configs/inference_config.yaml'
     with open(config_path, 'r', encoding='utf-8') as f:

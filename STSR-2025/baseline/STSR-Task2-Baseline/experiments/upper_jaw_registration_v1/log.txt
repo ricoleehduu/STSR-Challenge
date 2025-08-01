@@ -1,0 +1,840 @@
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled
+val_data_root: D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation/Image
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+Epoch 1/200 | Train Loss: 1.046977 | Val Loss: 6.777274 | Time: 100.05s
+  -> New best model saved with validation loss: 6.777274
+Epoch 2/200 | Train Loss: 1.028990 | Val Loss: 6.656887 | Time: 203.37s
+  -> New best model saved with validation loss: 6.656887
+--- Experiment started: upper_jaw_registration_v1 ---
+Configuration:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+Using device: cuda
+Epoch 1/200 | Train Loss: 1.036444 | Val Loss: 6.899818 | Time: 97.92s
+  -> New best model saved with validation loss: 6.899818
+Epoch 2/200 | Train Loss: 1.024474 | Val Loss: 6.772772 | Time: 196.78s
+  -> New best model saved with validation loss: 6.772772
+Epoch 3/200 | Train Loss: 1.029350 | Val Loss: 6.927541 | Time: 296.43s
+Epoch 4/200 | Train Loss: 1.013799 | Val Loss: 6.839971 | Time: 398.39s
+Epoch 5/200 | Train Loss: 1.001565 | Val Loss: 6.854775 | Time: 494.69s
+Epoch 6/200 | Train Loss: 1.025026 | Val Loss: 6.778533 | Time: 585.12s
+Epoch 7/200 | Train Loss: 0.996499 | Val Loss: 6.794349 | Time: 680.25s
+Epoch 8/200 | Train Loss: 0.988675 | Val Loss: 6.772680 | Time: 777.20s
+  -> New best model saved with validation loss: 6.772680
+Epoch 9/200 | Train Loss: 0.999434 | Val Loss: 6.806108 | Time: 872.67s
+Epoch 10/200 | Train Loss: 1.001066 | Val Loss: 6.670080 | Time: 970.49s
+  -> New best model saved with validation loss: 6.670080
+Epoch 11/200 | Train Loss: 0.985199 | Val Loss: 6.826621 | Time: 1073.81s
+Epoch 12/200 | Train Loss: 0.985950 | Val Loss: 6.674410 | Time: 1168.69s
+Epoch 13/200 | Train Loss: 1.006218 | Val Loss: 6.799564 | Time: 1256.61s
+Epoch 14/200 | Train Loss: 0.995135 | Val Loss: 6.717375 | Time: 1341.72s
+Epoch 15/200 | Train Loss: 0.997054 | Val Loss: 6.817959 | Time: 1429.51s
+Epoch 16/200 | Train Loss: 0.995885 | Val Loss: 6.775360 | Time: 1517.95s
+Epoch 17/200 | Train Loss: 0.994068 | Val Loss: 6.696967 | Time: 1606.96s
+Epoch 18/200 | Train Loss: 0.984798 | Val Loss: 6.753291 | Time: 1696.54s
+Epoch 19/200 | Train Loss: 0.995856 | Val Loss: 6.813995 | Time: 1783.95s
+Epoch 20/200 | Train Loss: 0.986879 | Val Loss: 6.859047 | Time: 1869.59s
+Epoch 21/200 | Train Loss: 0.983115 | Val Loss: 6.818927 | Time: 1957.81s
+Epoch 22/200 | Train Loss: 0.997512 | Val Loss: 6.841497 | Time: 2047.99s
+Epoch 23/200 | Train Loss: 0.988089 | Val Loss: 6.761132 | Time: 2138.38s
+Epoch 24/200 | Train Loss: 0.986803 | Val Loss: 6.849866 | Time: 2226.11s
+Epoch 25/200 | Train Loss: 1.000395 | Val Loss: 6.787541 | Time: 2314.79s
+Epoch 26/200 | Train Loss: 0.991449 | Val Loss: 6.701130 | Time: 2405.76s
+Epoch 27/200 | Train Loss: 1.004054 | Val Loss: 6.798225 | Time: 2495.34s
+Epoch 28/200 | Train Loss: 0.982054 | Val Loss: 6.843193 | Time: 2584.65s
+Epoch 29/200 | Train Loss: 0.992127 | Val Loss: 6.760953 | Time: 2678.97s
+Epoch 30/200 | Train Loss: 0.996009 | Val Loss: 6.799408 | Time: 2769.72s
+Epoch 31/200 | Train Loss: 0.977764 | Val Loss: 6.854165 | Time: 2858.62s
+Epoch 32/200 | Train Loss: 1.010768 | Val Loss: 6.773051 | Time: 2948.69s
+Epoch 33/200 | Train Loss: 0.993530 | Val Loss: 6.875901 | Time: 3038.92s
+Epoch 34/200 | Train Loss: 0.990550 | Val Loss: 6.830195 | Time: 3127.67s
+Epoch 35/200 | Train Loss: 1.009840 | Val Loss: 6.797605 | Time: 3218.58s
+Epoch 36/200 | Train Loss: 0.989758 | Val Loss: 6.749594 | Time: 3309.90s
+Epoch 37/200 | Train Loss: 0.991357 | Val Loss: 6.842547 | Time: 3399.39s
+Epoch 38/200 | Train Loss: 0.975178 | Val Loss: 6.811139 | Time: 3489.19s
+Epoch 39/200 | Train Loss: 0.985611 | Val Loss: 6.753138 | Time: 3579.14s
+Epoch 40/200 | Train Loss: 0.977775 | Val Loss: 6.912995 | Time: 3671.34s
+Epoch 41/200 | Train Loss: 1.000950 | Val Loss: 6.755021 | Time: 3759.88s
+Epoch 42/200 | Train Loss: 0.995074 | Val Loss: 6.802542 | Time: 3852.69s
+Epoch 43/200 | Train Loss: 0.986075 | Val Loss: 6.787278 | Time: 3943.25s
+Epoch 44/200 | Train Loss: 0.985057 | Val Loss: 6.769002 | Time: 4031.62s
+Epoch 45/200 | Train Loss: 0.993627 | Val Loss: 6.727648 | Time: 4123.19s
+Epoch 46/200 | Train Loss: 0.985972 | Val Loss: 6.696772 | Time: 4210.85s
+Epoch 47/200 | Train Loss: 0.988005 | Val Loss: 6.850639 | Time: 4302.48s
+Epoch 48/200 | Train Loss: 0.983979 | Val Loss: 6.796806 | Time: 4392.49s
+Epoch 49/200 | Train Loss: 1.002296 | Val Loss: 6.719931 | Time: 4483.22s
+Epoch 50/200 | Train Loss: 0.991872 | Val Loss: 6.795165 | Time: 4571.31s
+Epoch 51/200 | Train Loss: 0.981017 | Val Loss: 6.656591 | Time: 4663.16s
+  -> New best model saved with validation loss: 6.656591
+Epoch 52/200 | Train Loss: 0.987637 | Val Loss: 6.748546 | Time: 4753.27s
+Epoch 53/200 | Train Loss: 0.998345 | Val Loss: 6.661041 | Time: 4842.78s
+Epoch 54/200 | Train Loss: 0.980365 | Val Loss: 6.830371 | Time: 4929.90s
+Epoch 55/200 | Train Loss: 0.973143 | Val Loss: 6.762450 | Time: 5024.39s
+Epoch 56/200 | Train Loss: 1.001032 | Val Loss: 6.757886 | Time: 5118.56s
+Epoch 57/200 | Train Loss: 0.968738 | Val Loss: 6.849537 | Time: 5211.26s
+Epoch 58/200 | Train Loss: 0.983502 | Val Loss: 6.783951 | Time: 5305.55s
+Epoch 59/200 | Train Loss: 0.982695 | Val Loss: 6.858315 | Time: 5394.10s
+Epoch 60/200 | Train Loss: 0.977482 | Val Loss: 6.781714 | Time: 5484.92s
+Epoch 61/200 | Train Loss: 0.999327 | Val Loss: 6.712050 | Time: 5580.26s
+Epoch 62/200 | Train Loss: 0.975994 | Val Loss: 6.841646 | Time: 5677.63s
+Epoch 63/200 | Train Loss: 0.986776 | Val Loss: 6.778830 | Time: 5773.29s
+Epoch 64/200 | Train Loss: 0.982728 | Val Loss: 6.846926 | Time: 5867.85s
+Epoch 65/200 | Train Loss: 0.986912 | Val Loss: 6.728841 | Time: 5962.52s
+Epoch 66/200 | Train Loss: 0.975151 | Val Loss: 6.802735 | Time: 6055.47s
+Epoch 67/200 | Train Loss: 0.979892 | Val Loss: 6.825921 | Time: 6148.16s
+Epoch 68/200 | Train Loss: 0.982153 | Val Loss: 6.750767 | Time: 6248.62s
+Epoch 69/200 | Train Loss: 0.986810 | Val Loss: 6.833368 | Time: 6345.97s
+Epoch 70/200 | Train Loss: 0.987094 | Val Loss: 6.840184 | Time: 6446.41s
+Epoch 71/200 | Train Loss: 0.980620 | Val Loss: 6.803208 | Time: 6545.05s
+Epoch 72/200 | Train Loss: 0.962126 | Val Loss: 6.847667 | Time: 6647.12s
+Epoch 73/200 | Train Loss: 0.975825 | Val Loss: 6.793459 | Time: 6743.89s
+Epoch 74/200 | Train Loss: 0.978983 | Val Loss: 6.900845 | Time: 6841.47s
+Epoch 75/200 | Train Loss: 0.981496 | Val Loss: 6.867211 | Time: 6936.68s
+Epoch 76/200 | Train Loss: 0.981726 | Val Loss: 6.826772 | Time: 7032.72s
+Epoch 77/200 | Train Loss: 0.969763 | Val Loss: 6.760876 | Time: 7132.86s
+Epoch 78/200 | Train Loss: 0.967158 | Val Loss: 6.820604 | Time: 7234.27s
+Epoch 79/200 | Train Loss: 0.970098 | Val Loss: 6.824149 | Time: 7335.24s
+Epoch 80/200 | Train Loss: 0.984464 | Val Loss: 6.779700 | Time: 7435.71s
+Epoch 81/200 | Train Loss: 0.972171 | Val Loss: 6.895297 | Time: 7533.00s
+Epoch 82/200 | Train Loss: 0.975488 | Val Loss: 6.893680 | Time: 7631.18s
+Epoch 83/200 | Train Loss: 0.972883 | Val Loss: 6.893710 | Time: 7729.69s
+Epoch 84/200 | Train Loss: 0.966329 | Val Loss: 6.898645 | Time: 7828.49s
+Epoch 85/200 | Train Loss: 0.963434 | Val Loss: 6.791093 | Time: 7928.55s
+Epoch 86/200 | Train Loss: 0.966322 | Val Loss: 6.859957 | Time: 8026.31s
+Epoch 87/200 | Train Loss: 0.966818 | Val Loss: 6.910082 | Time: 8124.65s
+Epoch 88/200 | Train Loss: 0.954343 | Val Loss: 6.860252 | Time: 8226.30s
+Epoch 89/200 | Train Loss: 0.959397 | Val Loss: 6.946194 | Time: 8328.28s
+Epoch 90/200 | Train Loss: 0.963809 | Val Loss: 6.945156 | Time: 8427.46s
+Epoch 91/200 | Train Loss: 0.950506 | Val Loss: 6.988364 | Time: 8525.37s
+Epoch 92/200 | Train Loss: 0.946794 | Val Loss: 6.857634 | Time: 8624.63s
+Epoch 93/200 | Train Loss: 0.945632 | Val Loss: 6.882143 | Time: 8722.57s
+Epoch 94/200 | Train Loss: 0.950041 | Val Loss: 6.775482 | Time: 8821.94s
+Epoch 95/200 | Train Loss: 0.951305 | Val Loss: 6.723316 | Time: 8921.31s
+Epoch 96/200 | Train Loss: 0.941632 | Val Loss: 6.841318 | Time: 9018.05s
+Epoch 97/200 | Train Loss: 0.939331 | Val Loss: 6.906066 | Time: 9113.85s
+Epoch 98/200 | Train Loss: 0.941570 | Val Loss: 6.935690 | Time: 9209.40s
+Epoch 99/200 | Train Loss: 0.932527 | Val Loss: 6.883041 | Time: 9308.54s
+Epoch 100/200 | Train Loss: 0.933727 | Val Loss: 6.889564 | Time: 9411.25s
+Epoch 101/200 | Train Loss: 0.912176 | Val Loss: 7.043582 | Time: 9512.06s
+Epoch 102/200 | Train Loss: 0.919689 | Val Loss: 6.908602 | Time: 9612.45s
+Epoch 103/200 | Train Loss: 0.903997 | Val Loss: 6.712769 | Time: 9713.53s
+Epoch 104/200 | Train Loss: 0.910704 | Val Loss: 6.875926 | Time: 9815.30s
+Epoch 105/200 | Train Loss: 0.885705 | Val Loss: 6.894743 | Time: 9918.28s
+Epoch 106/200 | Train Loss: 0.881239 | Val Loss: 6.756431 | Time: 10022.90s
+Epoch 107/200 | Train Loss: 0.874247 | Val Loss: 6.744384 | Time: 10129.53s
+Epoch 108/200 | Train Loss: 0.849343 | Val Loss: 6.815276 | Time: 10237.44s
+Epoch 109/200 | Train Loss: 0.848535 | Val Loss: 6.783706 | Time: 10337.38s
+Epoch 110/200 | Train Loss: 0.853088 | Val Loss: 6.775322 | Time: 10436.88s
+Epoch 111/200 | Train Loss: 0.805787 | Val Loss: 6.613471 | Time: 10537.19s
+  -> New best model saved with validation loss: 6.613471
+Epoch 112/200 | Train Loss: 0.793902 | Val Loss: 6.683466 | Time: 10641.08s
+Epoch 113/200 | Train Loss: 0.802233 | Val Loss: 6.900831 | Time: 10742.18s
+Epoch 114/200 | Train Loss: 0.784605 | Val Loss: 6.555828 | Time: 10844.45s
+  -> New best model saved with validation loss: 6.555828
+Epoch 115/200 | Train Loss: 0.779838 | Val Loss: 6.592975 | Time: 10945.06s
+Epoch 116/200 | Train Loss: 0.718626 | Val Loss: 6.683147 | Time: 11054.63s
+Epoch 117/200 | Train Loss: 0.677534 | Val Loss: 6.867526 | Time: 11155.57s
+Epoch 118/200 | Train Loss: 0.713018 | Val Loss: 6.816935 | Time: 11255.43s
+Epoch 119/200 | Train Loss: 0.685083 | Val Loss: 6.815759 | Time: 11356.14s
+Epoch 120/200 | Train Loss: 0.770462 | Val Loss: 6.847648 | Time: 11460.17s
+Epoch 121/200 | Train Loss: 0.686956 | Val Loss: 6.781324 | Time: 11564.03s
+Epoch 122/200 | Train Loss: 0.676039 | Val Loss: 6.811910 | Time: 11667.08s
+Epoch 123/200 | Train Loss: 0.651565 | Val Loss: 6.870344 | Time: 11768.43s
+Epoch 124/200 | Train Loss: 0.684968 | Val Loss: 7.019485 | Time: 11868.31s
+Epoch 125/200 | Train Loss: 0.613393 | Val Loss: 6.819031 | Time: 11968.07s
+Epoch 126/200 | Train Loss: 0.649898 | Val Loss: 6.874233 | Time: 12066.23s
+Epoch 127/200 | Train Loss: 0.674601 | Val Loss: 6.750806 | Time: 12163.84s
+Epoch 128/200 | Train Loss: 0.626421 | Val Loss: 6.837732 | Time: 12263.21s
+Epoch 129/200 | Train Loss: 0.643134 | Val Loss: 6.722275 | Time: 12363.94s
+Epoch 130/200 | Train Loss: 0.625756 | Val Loss: 6.841725 | Time: 12462.25s
+Epoch 131/200 | Train Loss: 0.649087 | Val Loss: 6.985809 | Time: 12561.23s
+Epoch 132/200 | Train Loss: 0.633352 | Val Loss: 6.835982 | Time: 12661.75s
+Epoch 133/200 | Train Loss: 0.663313 | Val Loss: 6.887065 | Time: 12760.87s
+Epoch 134/200 | Train Loss: 0.639562 | Val Loss: 6.594403 | Time: 12859.40s
+Epoch 135/200 | Train Loss: 0.609307 | Val Loss: 6.979043 | Time: 12960.47s
+Epoch 136/200 | Train Loss: 0.603797 | Val Loss: 6.830559 | Time: 13061.03s
+Epoch 137/200 | Train Loss: 0.599333 | Val Loss: 6.701378 | Time: 13161.55s
+Epoch 138/200 | Train Loss: 0.606398 | Val Loss: 6.785633 | Time: 13264.65s
+Epoch 139/200 | Train Loss: 0.606916 | Val Loss: 6.955804 | Time: 13364.64s
+Epoch 140/200 | Train Loss: 0.740910 | Val Loss: 6.414772 | Time: 13468.98s
+  -> New best model saved with validation loss: 6.414772
+Epoch 141/200 | Train Loss: 0.653911 | Val Loss: 6.764842 | Time: 13570.91s
+Epoch 142/200 | Train Loss: 0.588497 | Val Loss: 6.947864 | Time: 13675.84s
+Epoch 143/200 | Train Loss: 0.597636 | Val Loss: 6.993042 | Time: 13780.82s
+Epoch 144/200 | Train Loss: 0.626953 | Val Loss: 6.785983 | Time: 13886.38s
+Epoch 145/200 | Train Loss: 0.651132 | Val Loss: 6.829341 | Time: 13989.08s
+Epoch 146/200 | Train Loss: 0.594931 | Val Loss: 6.841486 | Time: 14096.03s
+Epoch 147/200 | Train Loss: 0.624194 | Val Loss: 6.983667 | Time: 14198.57s
+Epoch 148/200 | Train Loss: 0.616018 | Val Loss: 6.940469 | Time: 14302.79s
+Epoch 149/200 | Train Loss: 0.603814 | Val Loss: 6.808471 | Time: 14411.09s
+Epoch 150/200 | Train Loss: 0.609341 | Val Loss: 6.706264 | Time: 14516.75s
+Epoch 151/200 | Train Loss: 0.625017 | Val Loss: 7.023370 | Time: 14621.12s
+Epoch 152/200 | Train Loss: 0.610839 | Val Loss: 6.697959 | Time: 14729.42s
+Epoch 153/200 | Train Loss: 0.602959 | Val Loss: 6.839968 | Time: 14836.59s
+Epoch 154/200 | Train Loss: 0.599102 | Val Loss: 7.023349 | Time: 14943.46s
+Epoch 155/200 | Train Loss: 0.581103 | Val Loss: 7.043924 | Time: 15049.15s
+Epoch 156/200 | Train Loss: 0.614656 | Val Loss: 6.686557 | Time: 15155.45s
+Epoch 157/200 | Train Loss: 0.633938 | Val Loss: 7.027815 | Time: 15264.92s
+Epoch 158/200 | Train Loss: 0.609241 | Val Loss: 6.995354 | Time: 15377.96s
+Epoch 159/200 | Train Loss: 0.608566 | Val Loss: 6.881442 | Time: 15479.57s
+Epoch 160/200 | Train Loss: 0.606673 | Val Loss: 6.910579 | Time: 15585.12s
+Epoch 161/200 | Train Loss: 0.607894 | Val Loss: 6.938259 | Time: 15684.11s
+Epoch 162/200 | Train Loss: 0.577661 | Val Loss: 6.821270 | Time: 15787.09s
+Epoch 163/200 | Train Loss: 0.612877 | Val Loss: 6.935835 | Time: 15885.10s
+Epoch 164/200 | Train Loss: 0.702578 | Val Loss: 6.602694 | Time: 15987.05s
+Epoch 165/200 | Train Loss: 0.611878 | Val Loss: 6.824777 | Time: 16086.80s
+Epoch 166/200 | Train Loss: 0.588921 | Val Loss: 6.859448 | Time: 16185.68s
+Epoch 167/200 | Train Loss: 0.581824 | Val Loss: 6.780497 | Time: 16285.90s
+Epoch 168/200 | Train Loss: 0.584120 | Val Loss: 6.841901 | Time: 16383.54s
+Epoch 169/200 | Train Loss: 0.587956 | Val Loss: 6.946242 | Time: 16483.47s
+Epoch 170/200 | Train Loss: 0.608619 | Val Loss: 6.812669 | Time: 16586.49s
+Epoch 171/200 | Train Loss: 0.565901 | Val Loss: 6.963196 | Time: 16680.50s
+Epoch 172/200 | Train Loss: 0.634688 | Val Loss: 6.975653 | Time: 16780.44s
+Epoch 173/200 | Train Loss: 0.608475 | Val Loss: 6.960196 | Time: 16884.04s
+Epoch 174/200 | Train Loss: 0.574629 | Val Loss: 6.978079 | Time: 16979.78s
+Epoch 175/200 | Train Loss: 0.572505 | Val Loss: 7.108001 | Time: 17078.37s
+Epoch 176/200 | Train Loss: 0.595158 | Val Loss: 7.072214 | Time: 17178.46s
+Epoch 177/200 | Train Loss: 0.579223 | Val Loss: 6.934597 | Time: 17276.30s
+Epoch 178/200 | Train Loss: 0.581829 | Val Loss: 6.883000 | Time: 17384.36s
+Epoch 179/200 | Train Loss: 0.587670 | Val Loss: 6.814241 | Time: 17490.03s
+Epoch 180/200 | Train Loss: 0.572752 | Val Loss: 6.875350 | Time: 17596.94s
+Epoch 181/200 | Train Loss: 0.574479 | Val Loss: 7.023263 | Time: 17701.01s
+Epoch 182/200 | Train Loss: 0.579154 | Val Loss: 7.054184 | Time: 17798.44s
+Epoch 183/200 | Train Loss: 0.572588 | Val Loss: 7.001922 | Time: 17898.65s
+Epoch 184/200 | Train Loss: 0.560877 | Val Loss: 7.095951 | Time: 17995.29s
+Epoch 185/200 | Train Loss: 0.586309 | Val Loss: 7.011669 | Time: 18093.26s
+Epoch 186/200 | Train Loss: 0.655779 | Val Loss: 6.395302 | Time: 18188.07s
+  -> New best model saved with validation loss: 6.395302
+Epoch 187/200 | Train Loss: 0.590923 | Val Loss: 6.514834 | Time: 18283.68s
+Epoch 188/200 | Train Loss: 0.567674 | Val Loss: 6.919727 | Time: 18378.18s
+Epoch 189/200 | Train Loss: 0.570925 | Val Loss: 7.013101 | Time: 18475.25s
+Epoch 190/200 | Train Loss: 0.572972 | Val Loss: 7.013482 | Time: 18570.73s
+Epoch 191/200 | Train Loss: 0.563898 | Val Loss: 6.760411 | Time: 18674.52s
+Epoch 192/200 | Train Loss: 0.565024 | Val Loss: 6.944267 | Time: 18780.74s
+Epoch 193/200 | Train Loss: 0.562871 | Val Loss: 7.067645 | Time: 18886.25s
+Epoch 194/200 | Train Loss: 0.574477 | Val Loss: 6.945231 | Time: 18987.91s
+Epoch 195/200 | Train Loss: 0.562436 | Val Loss: 7.013944 | Time: 19090.06s
+Epoch 196/200 | Train Loss: 0.574695 | Val Loss: 7.027852 | Time: 19191.19s
+Epoch 197/200 | Train Loss: 0.579334 | Val Loss: 7.054387 | Time: 19291.92s
+Epoch 198/200 | Train Loss: 0.577992 | Val Loss: 6.842067 | Time: 19395.19s
+Epoch 199/200 | Train Loss: 0.578480 | Val Loss: 6.907291 | Time: 19495.19s
+Epoch 200/200 | Train Loss: 0.566950 | Val Loss: 7.060977 | Time: 19600.31s
+--- 实验开始: upper_jaw_registration_v1 ---
+配置文件:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+使用设备: cuda
+Epoch 1/200 | Train Loss: 1.050190 | Val Loss: 0.093630 | Time: 104.20s | Total Time: 104.20s
+  -> 保存新最佳模型，验证损失: 0.093630
+Epoch 2/200 | Train Loss: 1.016600 | Val Loss: 0.092956 | Time: 102.78s | Total Time: 207.00s
+  -> 保存新最佳模型，验证损失: 0.092956
+Epoch 3/200 | Train Loss: 1.025312 | Val Loss: 0.092854 | Time: 103.93s | Total Time: 310.93s
+  -> 保存新最佳模型，验证损失: 0.092854
+Epoch 4/200 | Train Loss: 1.014362 | Val Loss: 0.083187 | Time: 103.29s | Total Time: 414.23s
+  -> 保存新最佳模型，验证损失: 0.083187
+Epoch 5/200 | Train Loss: 0.996451 | Val Loss: 0.086645 | Time: 104.88s | Total Time: 519.12s
+Epoch 6/200 | Train Loss: 0.987134 | Val Loss: 0.084538 | Time: 107.21s | Total Time: 626.33s
+Epoch 7/200 | Train Loss: 0.987090 | Val Loss: 0.082871 | Time: 104.15s | Total Time: 730.48s
+  -> 保存新最佳模型，验证损失: 0.082871
+Epoch 8/200 | Train Loss: 0.981395 | Val Loss: 0.081768 | Time: 102.56s | Total Time: 833.05s
+  -> 保存新最佳模型，验证损失: 0.081768
+Epoch 9/200 | Train Loss: 0.980847 | Val Loss: 0.083344 | Time: 102.91s | Total Time: 935.96s
+Epoch 10/200 | Train Loss: 0.974086 | Val Loss: 0.081900 | Time: 109.36s | Total Time: 1045.33s
+Epoch 11/200 | Train Loss: 0.979615 | Val Loss: 0.081694 | Time: 101.68s | Total Time: 1147.01s
+  -> 保存新最佳模型，验证损失: 0.081694
+Epoch 12/200 | Train Loss: 0.985194 | Val Loss: 0.081454 | Time: 99.14s | Total Time: 1246.16s
+  -> 保存新最佳模型，验证损失: 0.081454
+Epoch 13/200 | Train Loss: 0.985513 | Val Loss: 0.083577 | Time: 97.97s | Total Time: 1344.13s
+Epoch 14/200 | Train Loss: 0.976213 | Val Loss: 0.078788 | Time: 99.62s | Total Time: 1443.76s
+  -> 保存新最佳模型，验证损失: 0.078788
+Epoch 15/200 | Train Loss: 0.979505 | Val Loss: 0.079771 | Time: 98.97s | Total Time: 1542.73s
+Epoch 16/200 | Train Loss: 0.961336 | Val Loss: 0.080154 | Time: 103.11s | Total Time: 1645.84s
+Epoch 17/200 | Train Loss: 0.960502 | Val Loss: 0.082008 | Time: 97.14s | Total Time: 1742.99s
+Epoch 18/200 | Train Loss: 0.955709 | Val Loss: 0.081346 | Time: 95.78s | Total Time: 1838.77s
+Epoch 19/200 | Train Loss: 0.944765 | Val Loss: 0.080957 | Time: 96.62s | Total Time: 1935.39s
+Epoch 20/200 | Train Loss: 0.937268 | Val Loss: 0.081846 | Time: 104.84s | Total Time: 2040.24s
+Epoch 21/200 | Train Loss: 0.934677 | Val Loss: 0.082703 | Time: 103.33s | Total Time: 2143.57s
+Epoch 22/200 | Train Loss: 0.900545 | Val Loss: 0.084070 | Time: 109.16s | Total Time: 2252.74s
+Epoch 23/200 | Train Loss: 0.875417 | Val Loss: 0.087874 | Time: 107.69s | Total Time: 2360.43s
+Epoch 24/200 | Train Loss: 0.852072 | Val Loss: 0.097925 | Time: 109.80s | Total Time: 2470.23s
+Epoch 25/200 | Train Loss: 0.830677 | Val Loss: 0.112763 | Time: 104.85s | Total Time: 2575.08s
+Epoch 26/200 | Train Loss: 0.794924 | Val Loss: 0.120630 | Time: 102.28s | Total Time: 2677.37s
+Epoch 27/200 | Train Loss: 0.788275 | Val Loss: 0.130765 | Time: 111.31s | Total Time: 2788.69s
+Epoch 28/200 | Train Loss: 0.782427 | Val Loss: 0.139135 | Time: 109.18s | Total Time: 2897.87s
+Epoch 29/200 | Train Loss: 0.781698 | Val Loss: 0.144437 | Time: 107.43s | Total Time: 3005.31s
+Epoch 30/200 | Train Loss: 0.769382 | Val Loss: 0.157604 | Time: 110.54s | Total Time: 3115.85s
+Epoch 31/200 | Train Loss: 0.762025 | Val Loss: 0.148241 | Time: 111.50s | Total Time: 3227.36s
+Epoch 32/200 | Train Loss: 0.758867 | Val Loss: 0.155954 | Time: 112.03s | Total Time: 3339.39s
+Epoch 33/200 | Train Loss: 0.741757 | Val Loss: 0.164993 | Time: 109.21s | Total Time: 3448.61s
+Epoch 34/200 | Train Loss: 0.727044 | Val Loss: 0.172495 | Time: 111.37s | Total Time: 3559.98s
+Epoch 35/200 | Train Loss: 0.723106 | Val Loss: 0.179811 | Time: 110.35s | Total Time: 3670.34s
+Epoch 36/200 | Train Loss: 0.711895 | Val Loss: 0.186851 | Time: 111.97s | Total Time: 3782.31s
+Epoch 37/200 | Train Loss: 0.720346 | Val Loss: 0.181034 | Time: 109.74s | Total Time: 3892.05s
+Epoch 38/200 | Train Loss: 0.726669 | Val Loss: 0.191075 | Time: 111.58s | Total Time: 4003.63s
+Epoch 39/200 | Train Loss: 0.705343 | Val Loss: 0.189556 | Time: 109.13s | Total Time: 4112.77s
+Epoch 40/200 | Train Loss: 0.696583 | Val Loss: 0.197230 | Time: 111.01s | Total Time: 4223.79s
+--- 实验开始: upper_jaw_registration_v1 ---
+配置文件:
+batch_size: 1
+device: cuda
+epochs: 200
+experiment_name: upper_jaw_registration_v1
+feature_dim: 128
+jaw_type: upper
+learning_rate: 0.0001
+num_points_cbct: 8192
+num_points_stl: 4096
+num_workers: 4
+output_dir: ./experiments
+train_data_root: ./data/Task2/Train-Labeled
+val_data_root: ./data/Task2/Validation
+
+使用设备: cuda
+Epoch 1/200 | Train Loss: 1.035942 | Val Loss: 1.520092 | Time: 102.65s | Total Time: 102.65s
+  -> 保存新最佳模型，验证损失: 1.520092
+Epoch 2/200 | Train Loss: 1.012939 | Val Loss: 1.512895 | Time: 98.96s | Total Time: 201.63s
+  -> 保存新最佳模型，验证损失: 1.512895
+Epoch 3/200 | Train Loss: 1.002449 | Val Loss: 1.502393 | Time: 97.57s | Total Time: 299.20s
+  -> 保存新最佳模型，验证损失: 1.502393
+Epoch 4/200 | Train Loss: 0.991054 | Val Loss: 1.494544 | Time: 98.80s | Total Time: 398.01s
+  -> 保存新最佳模型，验证损失: 1.494544
+Epoch 5/200 | Train Loss: 0.990307 | Val Loss: 1.473337 | Time: 98.31s | Total Time: 496.33s
+  -> 保存新最佳模型，验证损失: 1.473337
+Epoch 6/200 | Train Loss: 0.989258 | Val Loss: 1.498588 | Time: 101.10s | Total Time: 597.43s
+Epoch 7/200 | Train Loss: 0.975848 | Val Loss: 1.460320 | Time: 98.20s | Total Time: 695.63s
+  -> 保存新最佳模型，验证损失: 1.460320
+Epoch 8/200 | Train Loss: 0.982306 | Val Loss: 1.500008 | Time: 97.34s | Total Time: 792.98s
+Epoch 9/200 | Train Loss: 0.981235 | Val Loss: 1.474323 | Time: 98.29s | Total Time: 891.28s
+Epoch 10/200 | Train Loss: 0.989841 | Val Loss: 1.490613 | Time: 102.36s | Total Time: 993.64s
+Epoch 11/200 | Train Loss: 0.992644 | Val Loss: 1.465735 | Time: 97.56s | Total Time: 1091.21s
+Epoch 12/200 | Train Loss: 0.974734 | Val Loss: 1.461863 | Time: 102.23s | Total Time: 1193.44s
+Epoch 13/200 | Train Loss: 0.978058 | Val Loss: 1.489964 | Time: 105.11s | Total Time: 1298.55s
+Epoch 14/200 | Train Loss: 0.967696 | Val Loss: 1.462189 | Time: 100.97s | Total Time: 1399.52s
+Epoch 15/200 | Train Loss: 0.966827 | Val Loss: 1.448467 | Time: 100.00s | Total Time: 1499.52s
+  -> 保存新最佳模型，验证损失: 1.448467
+Epoch 16/200 | Train Loss: 0.967473 | Val Loss: 1.443108 | Time: 98.21s | Total Time: 1597.73s
+  -> 保存新最佳模型，验证损失: 1.443108
+Epoch 17/200 | Train Loss: 0.956407 | Val Loss: 1.449799 | Time: 98.53s | Total Time: 1696.27s
+Epoch 18/200 | Train Loss: 0.949592 | Val Loss: 1.440091 | Time: 100.68s | Total Time: 1796.95s
+  -> 保存新最佳模型，验证损失: 1.440091
+Epoch 19/200 | Train Loss: 0.936163 | Val Loss: 1.421855 | Time: 98.96s | Total Time: 1895.92s
+  -> 保存新最佳模型，验证损失: 1.421855
+Epoch 20/200 | Train Loss: 0.932182 | Val Loss: 1.402432 | Time: 99.42s | Total Time: 1995.35s
+  -> 保存新最佳模型，验证损失: 1.402432
+Epoch 21/200 | Train Loss: 0.916325 | Val Loss: 1.379695 | Time: 97.55s | Total Time: 2092.91s
+  -> 保存新最佳模型，验证损失: 1.379695
+Epoch 22/200 | Train Loss: 0.910975 | Val Loss: 1.363975 | Time: 103.12s | Total Time: 2196.03s
+  -> 保存新最佳模型，验证损失: 1.363975
+Epoch 23/200 | Train Loss: 0.877976 | Val Loss: 1.341888 | Time: 101.48s | Total Time: 2297.51s
+  -> 保存新最佳模型，验证损失: 1.341888
+Epoch 24/200 | Train Loss: 0.848155 | Val Loss: 1.315179 | Time: 104.02s | Total Time: 2401.54s
+  -> 保存新最佳模型，验证损失: 1.315179
+Epoch 25/200 | Train Loss: 0.832063 | Val Loss: 1.276940 | Time: 101.55s | Total Time: 2503.10s
+  -> 保存新最佳模型，验证损失: 1.276940
+Epoch 26/200 | Train Loss: 0.816396 | Val Loss: 1.274303 | Time: 100.58s | Total Time: 2603.69s
+  -> 保存新最佳模型，验证损失: 1.274303
+Epoch 27/200 | Train Loss: 0.806852 | Val Loss: 1.239394 | Time: 95.90s | Total Time: 2699.60s
+  -> 保存新最佳模型，验证损失: 1.239394
+Epoch 28/200 | Train Loss: 0.796569 | Val Loss: 1.233596 | Time: 95.33s | Total Time: 2794.93s
+  -> 保存新最佳模型，验证损失: 1.233596
+Epoch 29/200 | Train Loss: 0.789646 | Val Loss: 1.252350 | Time: 94.51s | Total Time: 2889.45s
+Epoch 30/200 | Train Loss: 0.764783 | Val Loss: 1.246710 | Time: 97.95s | Total Time: 2987.40s
+Epoch 31/200 | Train Loss: 0.764517 | Val Loss: 1.233755 | Time: 102.16s | Total Time: 3089.57s
+Epoch 32/200 | Train Loss: 0.761758 | Val Loss: 1.206176 | Time: 98.95s | Total Time: 3188.52s
+  -> 保存新最佳模型，验证损失: 1.206176
+Epoch 33/200 | Train Loss: 0.735785 | Val Loss: 1.251376 | Time: 94.51s | Total Time: 3283.03s
+Epoch 34/200 | Train Loss: 0.738694 | Val Loss: 1.262300 | Time: 94.83s | Total Time: 3377.86s
+Epoch 35/200 | Train Loss: 0.729087 | Val Loss: 1.282469 | Time: 97.55s | Total Time: 3475.42s
+Epoch 36/200 | Train Loss: 0.728661 | Val Loss: 1.257869 | Time: 96.38s | Total Time: 3571.81s
+Epoch 37/200 | Train Loss: 0.704089 | Val Loss: 1.254609 | Time: 101.90s | Total Time: 3673.71s
+Epoch 38/200 | Train Loss: 0.708098 | Val Loss: 1.254392 | Time: 96.09s | Total Time: 3769.80s
+Epoch 39/200 | Train Loss: 0.693386 | Val Loss: 1.268201 | Time: 93.67s | Total Time: 3863.48s
+Epoch 40/200 | Train Loss: 0.707653 | Val Loss: 1.269067 | Time: 95.61s | Total Time: 3959.09s
+Epoch 41/200 | Train Loss: 0.707913 | Val Loss: 1.280116 | Time: 96.73s | Total Time: 4055.82s
+Epoch 42/200 | Train Loss: 0.702135 | Val Loss: 1.307114 | Time: 93.55s | Total Time: 4149.37s
+Epoch 43/200 | Train Loss: 0.703603 | Val Loss: 1.307610 | Time: 97.86s | Total Time: 4247.24s
+Epoch 44/200 | Train Loss: 0.710359 | Val Loss: 1.288900 | Time: 98.77s | Total Time: 4346.01s
+Epoch 45/200 | Train Loss: 0.699043 | Val Loss: 1.299219 | Time: 98.04s | Total Time: 4444.05s
+Epoch 46/200 | Train Loss: 0.705444 | Val Loss: 1.280474 | Time: 95.51s | Total Time: 4539.57s
+Epoch 47/200 | Train Loss: 0.701858 | Val Loss: 1.283393 | Time: 103.05s | Total Time: 4642.62s
+Epoch 48/200 | Train Loss: 0.700292 | Val Loss: 1.287420 | Time: 96.84s | Total Time: 4739.46s
+Epoch 49/200 | Train Loss: 0.689444 | Val Loss: 1.262034 | Time: 101.28s | Total Time: 4840.74s
+Epoch 50/200 | Train Loss: 0.698058 | Val Loss: 1.276540 | Time: 102.31s | Total Time: 4943.05s
+Epoch 51/200 | Train Loss: 0.690026 | Val Loss: 1.276848 | Time: 98.48s | Total Time: 5041.54s
+Epoch 52/200 | Train Loss: 0.680248 | Val Loss: 1.284615 | Time: 101.29s | Total Time: 5142.84s
+Epoch 53/200 | Train Loss: 0.683619 | Val Loss: 1.299278 | Time: 95.69s | Total Time: 5238.53s
+Epoch 54/200 | Train Loss: 0.701054 | Val Loss: 1.279866 | Time: 101.70s | Total Time: 5340.24s
+Epoch 55/200 | Train Loss: 0.681962 | Val Loss: 1.264009 | Time: 97.14s | Total Time: 5437.38s
+Epoch 56/200 | Train Loss: 0.681471 | Val Loss: 1.275694 | Time: 98.01s | Total Time: 5535.40s
+Epoch 57/200 | Train Loss: 0.679869 | Val Loss: 1.275878 | Time: 99.42s | Total Time: 5634.82s
+Epoch 58/200 | Train Loss: 0.695125 | Val Loss: 1.297697 | Time: 98.58s | Total Time: 5733.40s
+Epoch 59/200 | Train Loss: 0.703055 | Val Loss: 1.279575 | Time: 99.97s | Total Time: 5833.38s
+Epoch 60/200 | Train Loss: 0.682338 | Val Loss: 1.298766 | Time: 87.06s | Total Time: 5920.45s
+Epoch 61/200 | Train Loss: 0.683405 | Val Loss: 1.251347 | Time: 86.05s | Total Time: 6006.50s
+Epoch 62/200 | Train Loss: 0.686607 | Val Loss: 1.260223 | Time: 91.39s | Total Time: 6097.89s
+Epoch 63/200 | Train Loss: 0.685164 | Val Loss: 1.246401 | Time: 94.02s | Total Time: 6191.91s
+Epoch 64/200 | Train Loss: 0.678492 | Val Loss: 1.280525 | Time: 91.19s | Total Time: 6283.11s
+Epoch 65/200 | Train Loss: 0.684992 | Val Loss: 1.274619 | Time: 91.43s | Total Time: 6374.55s
+Epoch 66/200 | Train Loss: 0.679890 | Val Loss: 1.274783 | Time: 91.79s | Total Time: 6466.34s
+Epoch 67/200 | Train Loss: 0.667952 | Val Loss: 1.261652 | Time: 91.24s | Total Time: 6557.58s
+Epoch 68/200 | Train Loss: 0.676474 | Val Loss: 1.272860 | Time: 92.20s | Total Time: 6649.78s
+Epoch 69/200 | Train Loss: 0.666825 | Val Loss: 1.277513 | Time: 94.65s | Total Time: 6744.43s
+Epoch 70/200 | Train Loss: 0.677604 | Val Loss: 1.253269 | Time: 93.25s | Total Time: 6837.69s
+Epoch 71/200 | Train Loss: 0.674225 | Val Loss: 1.254802 | Time: 91.08s | Total Time: 6928.77s
+Epoch 72/200 | Train Loss: 0.661990 | Val Loss: 1.261244 | Time: 88.45s | Total Time: 7017.22s
+Epoch 73/200 | Train Loss: 0.661788 | Val Loss: 1.246197 | Time: 89.35s | Total Time: 7106.57s
+Epoch 74/200 | Train Loss: 0.660614 | Val Loss: 1.251812 | Time: 88.60s | Total Time: 7195.18s
+Epoch 75/200 | Train Loss: 0.667194 | Val Loss: 1.264057 | Time: 86.39s | Total Time: 7281.57s
+Epoch 76/200 | Train Loss: 0.669684 | Val Loss: 1.235557 | Time: 89.54s | Total Time: 7371.12s
+Epoch 77/200 | Train Loss: 0.655435 | Val Loss: 1.277027 | Time: 90.96s | Total Time: 7462.08s
+Epoch 78/200 | Train Loss: 0.659398 | Val Loss: 1.288188 | Time: 92.72s | Total Time: 7554.80s
+Epoch 79/200 | Train Loss: 0.663897 | Val Loss: 1.256412 | Time: 89.40s | Total Time: 7644.20s
+Epoch 80/200 | Train Loss: 0.665060 | Val Loss: 1.275741 | Time: 90.00s | Total Time: 7734.20s
+Epoch 81/200 | Train Loss: 0.667357 | Val Loss: 1.273728 | Time: 87.00s | Total Time: 7821.20s
+Epoch 82/200 | Train Loss: 0.655567 | Val Loss: 1.258253 | Time: 91.82s | Total Time: 7913.02s
+Epoch 83/200 | Train Loss: 0.659492 | Val Loss: 1.263261 | Time: 87.69s | Total Time: 8000.71s
+Epoch 84/200 | Train Loss: 0.656191 | Val Loss: 1.256273 | Time: 90.59s | Total Time: 8091.31s
+Epoch 85/200 | Train Loss: 0.657334 | Val Loss: 1.253659 | Time: 97.87s | Total Time: 8189.18s
+Epoch 86/200 | Train Loss: 0.648405 | Val Loss: 1.249232 | Time: 92.44s | Total Time: 8281.63s
+Epoch 87/200 | Train Loss: 0.655363 | Val Loss: 1.293082 | Time: 94.29s | Total Time: 8375.92s
+Epoch 88/200 | Train Loss: 0.648858 | Val Loss: 1.269009 | Time: 94.30s | Total Time: 8470.22s
+Epoch 89/200 | Train Loss: 0.649672 | Val Loss: 1.265698 | Time: 88.75s | Total Time: 8558.97s
+Epoch 90/200 | Train Loss: 0.645301 | Val Loss: 1.281353 | Time: 89.09s | Total Time: 8648.07s
+Epoch 91/200 | Train Loss: 0.644056 | Val Loss: 1.261259 | Time: 91.86s | Total Time: 8739.93s
+Epoch 92/200 | Train Loss: 0.658035 | Val Loss: 1.280160 | Time: 90.17s | Total Time: 8830.11s
+Epoch 93/200 | Train Loss: 0.653729 | Val Loss: 1.259216 | Time: 91.97s | Total Time: 8922.08s
+Epoch 94/200 | Train Loss: 0.628731 | Val Loss: 1.241131 | Time: 92.18s | Total Time: 9014.26s
+Epoch 95/200 | Train Loss: 0.645297 | Val Loss: 1.276734 | Time: 90.84s | Total Time: 9105.10s
+Epoch 96/200 | Train Loss: 0.658308 | Val Loss: 1.284379 | Time: 90.64s | Total Time: 9195.74s
+Epoch 97/200 | Train Loss: 0.636864 | Val Loss: 1.267506 | Time: 92.02s | Total Time: 9287.76s
+Epoch 98/200 | Train Loss: 0.641945 | Val Loss: 1.255418 | Time: 88.88s | Total Time: 9376.64s
+Epoch 99/200 | Train Loss: 0.631137 | Val Loss: 1.285375 | Time: 93.39s | Total Time: 9470.03s
+Epoch 100/200 | Train Loss: 0.623945 | Val Loss: 1.252652 | Time: 89.70s | Total Time: 9559.73s
+Epoch 101/200 | Train Loss: 0.622102 | Val Loss: 1.249632 | Time: 90.48s | Total Time: 9650.22s
+Epoch 102/200 | Train Loss: 0.629187 | Val Loss: 1.255318 | Time: 89.48s | Total Time: 9739.70s
+Epoch 103/200 | Train Loss: 0.641363 | Val Loss: 1.271927 | Time: 90.84s | Total Time: 9830.54s
+Epoch 104/200 | Train Loss: 0.634876 | Val Loss: 1.260154 | Time: 93.01s | Total Time: 9923.56s
+Epoch 105/200 | Train Loss: 0.626063 | Val Loss: 1.258063 | Time: 90.79s | Total Time: 10014.35s
+Epoch 106/200 | Train Loss: 0.631856 | Val Loss: 1.256306 | Time: 91.37s | Total Time: 10105.72s
+Epoch 107/200 | Train Loss: 0.621851 | Val Loss: 1.262526 | Time: 88.84s | Total Time: 10194.56s
+Epoch 108/200 | Train Loss: 0.622043 | Val Loss: 1.266587 | Time: 92.59s | Total Time: 10287.16s
+Epoch 109/200 | Train Loss: 0.621999 | Val Loss: 1.295710 | Time: 91.11s | Total Time: 10378.27s
+Epoch 110/200 | Train Loss: 0.618291 | Val Loss: 1.271754 | Time: 87.76s | Total Time: 10466.03s
+Epoch 111/200 | Train Loss: 0.621288 | Val Loss: 1.263126 | Time: 92.20s | Total Time: 10558.24s
+Epoch 112/200 | Train Loss: 0.607328 | Val Loss: 1.283926 | Time: 91.20s | Total Time: 10649.44s
+Epoch 113/200 | Train Loss: 0.616861 | Val Loss: 1.261111 | Time: 89.73s | Total Time: 10739.18s
+Epoch 114/200 | Train Loss: 0.603050 | Val Loss: 1.261080 | Time: 91.06s | Total Time: 10830.24s
+Epoch 115/200 | Train Loss: 0.600254 | Val Loss: 1.276690 | Time: 89.49s | Total Time: 10919.74s
+Epoch 116/200 | Train Loss: 0.602340 | Val Loss: 1.250525 | Time: 90.72s | Total Time: 11010.46s
+Epoch 117/200 | Train Loss: 0.615150 | Val Loss: 1.285748 | Time: 91.47s | Total Time: 11101.94s
+Epoch 118/200 | Train Loss: 0.627316 | Val Loss: 1.273440 | Time: 91.11s | Total Time: 11193.05s
+Epoch 119/200 | Train Loss: 0.601762 | Val Loss: 1.287385 | Time: 90.75s | Total Time: 11283.80s
+Epoch 120/200 | Train Loss: 0.599393 | Val Loss: 1.270848 | Time: 91.11s | Total Time: 11374.91s
+Epoch 121/200 | Train Loss: 0.601559 | Val Loss: 1.262838 | Time: 93.10s | Total Time: 11468.02s
+Epoch 122/200 | Train Loss: 0.601149 | Val Loss: 1.277534 | Time: 93.83s | Total Time: 11561.86s
+Epoch 123/200 | Train Loss: 0.606799 | Val Loss: 1.281265 | Time: 91.83s | Total Time: 11653.69s
+Epoch 124/200 | Train Loss: 0.594378 | Val Loss: 1.251549 | Time: 89.01s | Total Time: 11742.71s
+Epoch 125/200 | Train Loss: 0.591221 | Val Loss: 1.274241 | Time: 91.85s | Total Time: 11834.56s
+Epoch 126/200 | Train Loss: 0.594480 | Val Loss: 1.278660 | Time: 90.07s | Total Time: 11924.63s
+Epoch 127/200 | Train Loss: 0.598995 | Val Loss: 1.271146 | Time: 91.00s | Total Time: 12015.64s
+Epoch 128/200 | Train Loss: 0.593264 | Val Loss: 1.269431 | Time: 93.49s | Total Time: 12109.13s
+Epoch 129/200 | Train Loss: 0.582169 | Val Loss: 1.282526 | Time: 91.40s | Total Time: 12200.54s
+Epoch 130/200 | Train Loss: 0.594279 | Val Loss: 1.270995 | Time: 91.22s | Total Time: 12291.76s
+Epoch 131/200 | Train Loss: 0.592125 | Val Loss: 1.272385 | Time: 90.63s | Total Time: 12382.39s
+Epoch 132/200 | Train Loss: 0.579506 | Val Loss: 1.298576 | Time: 91.91s | Total Time: 12474.31s
+Epoch 133/200 | Train Loss: 0.585323 | Val Loss: 1.291442 | Time: 89.02s | Total Time: 12563.33s
+Epoch 134/200 | Train Loss: 0.591416 | Val Loss: 1.309354 | Time: 89.93s | Total Time: 12653.26s
+Epoch 135/200 | Train Loss: 0.585859 | Val Loss: 1.285446 | Time: 90.05s | Total Time: 12743.32s
+Epoch 136/200 | Train Loss: 0.583134 | Val Loss: 1.298959 | Time: 93.16s | Total Time: 12836.48s
+Epoch 137/200 | Train Loss: 0.587981 | Val Loss: 1.273247 | Time: 95.37s | Total Time: 12931.86s
+Epoch 138/200 | Train Loss: 0.572623 | Val Loss: 1.258365 | Time: 90.18s | Total Time: 13022.04s
+Epoch 139/200 | Train Loss: 0.572489 | Val Loss: 1.273616 | Time: 89.88s | Total Time: 13111.92s
+Epoch 140/200 | Train Loss: 0.578638 | Val Loss: 1.289443 | Time: 95.02s | Total Time: 13206.94s
+Epoch 141/200 | Train Loss: 0.591088 | Val Loss: 1.274742 | Time: 89.16s | Total Time: 13296.11s
+Epoch 142/200 | Train Loss: 0.618872 | Val Loss: 1.286427 | Time: 91.95s | Total Time: 13388.06s
+Epoch 143/200 | Train Loss: 0.592717 | Val Loss: 1.274234 | Time: 89.85s | Total Time: 13477.91s
+Epoch 144/200 | Train Loss: 0.577400 | Val Loss: 1.257522 | Time: 92.43s | Total Time: 13570.34s
+Epoch 145/200 | Train Loss: 0.577703 | Val Loss: 1.267374 | Time: 90.92s | Total Time: 13661.27s
+Epoch 146/200 | Train Loss: 0.566811 | Val Loss: 1.243415 | Time: 93.66s | Total Time: 13754.93s
+Epoch 147/200 | Train Loss: 0.590765 | Val Loss: 1.249327 | Time: 91.86s | Total Time: 13846.79s
+Epoch 148/200 | Train Loss: 0.573613 | Val Loss: 1.302359 | Time: 89.10s | Total Time: 13935.90s
+Epoch 149/200 | Train Loss: 0.589709 | Val Loss: 1.264033 | Time: 88.30s | Total Time: 14024.20s
+Epoch 150/200 | Train Loss: 0.561102 | Val Loss: 1.276915 | Time: 90.54s | Total Time: 14114.74s
+Epoch 151/200 | Train Loss: 0.595088 | Val Loss: 1.316062 | Time: 87.28s | Total Time: 14202.02s
+Epoch 152/200 | Train Loss: 0.576647 | Val Loss: 1.255642 | Time: 86.49s | Total Time: 14288.52s
+Epoch 153/200 | Train Loss: 0.563789 | Val Loss: 1.241851 | Time: 87.12s | Total Time: 14375.64s
+Epoch 154/200 | Train Loss: 0.571076 | Val Loss: 1.275906 | Time: 85.91s | Total Time: 14461.55s
+Epoch 155/200 | Train Loss: 0.556169 | Val Loss: 1.267086 | Time: 87.60s | Total Time: 14549.16s
+Epoch 156/200 | Train Loss: 0.564036 | Val Loss: 1.273949 | Time: 89.88s | Total Time: 14639.05s
+Epoch 157/200 | Train Loss: 0.565161 | Val Loss: 1.241566 | Time: 87.19s | Total Time: 14726.24s
+Epoch 158/200 | Train Loss: 0.562145 | Val Loss: 1.276432 | Time: 88.41s | Total Time: 14814.65s
+Epoch 159/200 | Train Loss: 0.551195 | Val Loss: 1.247277 | Time: 88.91s | Total Time: 14903.57s
+Epoch 160/200 | Train Loss: 0.573838 | Val Loss: 1.281633 | Time: 91.52s | Total Time: 14995.09s
+Epoch 161/200 | Train Loss: 0.583833 | Val Loss: 1.251951 | Time: 90.46s | Total Time: 15085.55s
+Epoch 162/200 | Train Loss: 0.561880 | Val Loss: 1.263832 | Time: 92.52s | Total Time: 15178.08s
+Epoch 163/200 | Train Loss: 0.562369 | Val Loss: 1.262235 | Time: 93.45s | Total Time: 15271.54s
+Epoch 164/200 | Train Loss: 0.559751 | Val Loss: 1.270444 | Time: 91.47s | Total Time: 15363.02s
+Epoch 165/200 | Train Loss: 0.564902 | Val Loss: 1.255912 | Time: 91.08s | Total Time: 15454.10s
+Epoch 166/200 | Train Loss: 0.561882 | Val Loss: 1.226638 | Time: 92.72s | Total Time: 15546.82s
+Epoch 167/200 | Train Loss: 0.558172 | Val Loss: 1.243380 | Time: 94.66s | Total Time: 15641.48s
+Epoch 168/200 | Train Loss: 0.549269 | Val Loss: 1.236842 | Time: 89.56s | Total Time: 15731.04s
+Epoch 169/200 | Train Loss: 0.560870 | Val Loss: 1.242375 | Time: 92.15s | Total Time: 15823.19s
+Epoch 170/200 | Train Loss: 0.547544 | Val Loss: 1.272081 | Time: 94.26s | Total Time: 15917.45s
+Epoch 171/200 | Train Loss: 0.564307 | Val Loss: 1.265292 | Time: 91.62s | Total Time: 16009.08s
+Epoch 172/200 | Train Loss: 0.546130 | Val Loss: 1.250748 | Time: 84.96s | Total Time: 16094.05s
+Epoch 173/200 | Train Loss: 0.552557 | Val Loss: 1.256339 | Time: 86.13s | Total Time: 16180.18s
+Epoch 174/200 | Train Loss: 0.539342 | Val Loss: 1.246297 | Time: 91.37s | Total Time: 16271.56s
+Epoch 175/200 | Train Loss: 0.550829 | Val Loss: 1.216028 | Time: 91.29s | Total Time: 16362.85s
+Epoch 176/200 | Train Loss: 0.537254 | Val Loss: 1.290887 | Time: 92.38s | Total Time: 16455.24s
+Epoch 177/200 | Train Loss: 0.552728 | Val Loss: 1.261196 | Time: 91.50s | Total Time: 16546.74s
+Epoch 178/200 | Train Loss: 0.547492 | Val Loss: 1.256247 | Time: 92.48s | Total Time: 16639.22s
+Epoch 179/200 | Train Loss: 0.559716 | Val Loss: 1.246970 | Time: 89.82s | Total Time: 16729.04s
+Epoch 180/200 | Train Loss: 0.547109 | Val Loss: 1.266696 | Time: 93.12s | Total Time: 16822.17s
+Epoch 181/200 | Train Loss: 0.564989 | Val Loss: 1.235445 | Time: 90.85s | Total Time: 16913.02s
+Epoch 182/200 | Train Loss: 0.557558 | Val Loss: 1.293086 | Time: 91.20s | Total Time: 17004.23s
+Epoch 183/200 | Train Loss: 0.559216 | Val Loss: 1.301107 | Time: 93.46s | Total Time: 17097.69s
+Epoch 184/200 | Train Loss: 0.560042 | Val Loss: 1.259961 | Time: 90.83s | Total Time: 17188.52s
+Epoch 185/200 | Train Loss: 0.574550 | Val Loss: 1.269133 | Time: 87.65s | Total Time: 17276.17s
+Epoch 186/200 | Train Loss: 0.558619 | Val Loss: 1.274481 | Time: 87.46s | Total Time: 17363.64s
+Epoch 187/200 | Train Loss: 0.550773 | Val Loss: 1.258420 | Time: 86.74s | Total Time: 17450.38s
+Epoch 188/200 | Train Loss: 0.551105 | Val Loss: 1.260185 | Time: 90.48s | Total Time: 17540.86s
+Epoch 189/200 | Train Loss: 0.546417 | Val Loss: 1.273236 | Time: 90.64s | Total Time: 17631.51s
+Epoch 190/200 | Train Loss: 0.559909 | Val Loss: 1.242912 | Time: 91.20s | Total Time: 17722.71s
+Epoch 191/200 | Train Loss: 0.557332 | Val Loss: 1.225723 | Time: 90.96s | Total Time: 17813.67s
+Epoch 192/200 | Train Loss: 0.545751 | Val Loss: 1.276820 | Time: 90.08s | Total Time: 17903.75s
+Epoch 193/200 | Train Loss: 0.550726 | Val Loss: 1.228735 | Time: 93.08s | Total Time: 17996.83s
+Epoch 194/200 | Train Loss: 0.539937 | Val Loss: 1.282951 | Time: 90.51s | Total Time: 18087.34s
+Epoch 195/200 | Train Loss: 0.545811 | Val Loss: 1.256614 | Time: 87.77s | Total Time: 18175.11s
+Epoch 196/200 | Train Loss: 0.527833 | Val Loss: 1.245329 | Time: 86.88s | Total Time: 18262.00s
+Epoch 197/200 | Train Loss: 0.550576 | Val Loss: 1.249699 | Time: 87.68s | Total Time: 18349.68s
+Epoch 198/200 | Train Loss: 0.565570 | Val Loss: 1.222883 | Time: 87.89s | Total Time: 18437.58s
+Epoch 199/200 | Train Loss: 0.546924 | Val Loss: 1.251163 | Time: 89.09s | Total Time: 18526.67s
+Epoch 200/200 | Train Loss: 0.547955 | Val Loss: 1.218455 | Time: 89.85s | Total Time: 18616.53s
+--- 训练完成，开始评估模型 ---

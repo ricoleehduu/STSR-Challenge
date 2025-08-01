@@ -1,0 +1,4 @@
+2025-07-23 16:30:40,803 [INFO ]  Logging setup complete. Log file: outputs/logs\cbct_segmentation_baseline_20250723_163040.log
+2025-07-23 16:30:40,804 [INFO ]  Using device: cuda:0
+2025-07-23 16:30:40,806 [INFO ]  TensorBoard logs will be saved to: outputs/tb_logs
+2025-07-23 16:30:40,806 [INFO ]  Preparing data loaders...

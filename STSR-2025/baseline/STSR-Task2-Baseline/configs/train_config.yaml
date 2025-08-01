@@ -2,9 +2,9 @@
 
 # --- Path Configuration ---
 # Root directory for training data (containing -Corrected folders with Images and Labels)
-train_data_root: "E:/AAA/MICCAI-Challenge-STSR2025/MICCAI-Challenge-STSR2025-Task2/Train-Labeled"
+train_data_root: "./data/Task2/Train-Labeled"
 # Root directory for validation data
-val_data_root: "D:/datasets/lz-data/2025-04-15/MICCAI-challenge2025-Taks2/final_split/Validation-Public"
+val_data_root: "./data/Task2/Validation"
 # Root directory for experiment outputs (weights, logs, etc.)
 output_dir: "./experiments"
 
@@ -12,10 +12,10 @@ output_dir: "./experiments"
 # --- Experiment Configuration ---
 # Experiment name (will create a subfolder under output_dir)
 # experiment_name: "lower_jaw_registration_v1"
-experiment_name: "upper_jaw_registration_v1"
+experiment_name: "lower_jaw_registration_v1"
 
 # Jaw type to train: 'lower' or 'upper'
-jaw_type: "upper"
+jaw_type: "lower"
 # Device to use ('cuda' or 'cpu')
 device: "cuda"
 
